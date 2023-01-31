@@ -66,9 +66,6 @@ export default {
 				})
 
 			}
-			// trackData.forEach((latlng) =>
-			// 	latlngs.push([latlng.latitude, latlng.longitude])
-			// );
 			var polyline = L.polyline(coordinates, { color: "red" }).addTo(
 				this.map
 			);
