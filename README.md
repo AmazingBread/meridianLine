@@ -14,7 +14,7 @@ trackData.sort(function (a, b) {
 });
 ```
 
-## meridian 180 icsxssue
+## meridian 180 issue
 ```
 let coordinates = [];
 let firstLng = parseFloat(trackData[0].longitude)
