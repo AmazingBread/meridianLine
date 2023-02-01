@@ -1,7 +1,7 @@
 # meridian
 ![meridian](./src/assets/meridianLine.png)
 ## data sort
-```
+```javascript
 trackData.sort(function (a, b) {
     if (a.updated > b.updated) {
         return 1;
@@ -15,7 +15,7 @@ trackData.sort(function (a, b) {
 ```
 
 ## meridian 180 issue
-```
+```javascript
 let coordinates = [];
 let firstLng = parseFloat(trackData[0].longitude)
 let lastLng = parseFloat(trackData[trackData.length-1].longitude)
