@@ -1,14 +1,14 @@
 <template>
-	<HelloWorld />
+	<Meridian />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Meridian from "./components/meridian.vue";
 
 export default {
 	name: "App",
 	components: {
-		HelloWorld,
+		Meridian,
 	},
 };
 </script>
